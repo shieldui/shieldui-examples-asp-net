@@ -6,7 +6,7 @@ The [Shield UI ASP.NET suite](https://www.shieldui.com/products/aspnet) offers A
 Chart, Grid, Combo and Input components, Barcode Suite, QR Code and many more of the over 70 widget types. 
 This brings client-side performance to the comfort of Visual Studio.
 
-## Using Shield UI Grid ASP.NET Wrapper example:
+## Using Shield UI Grid ASP.NET Wrapper example
 
 1) Create a new Web Project in Visual Studio 2015.
 
@@ -71,4 +71,8 @@ protected void Page_Load(object sender, EventArgs e)
 ```
 
 10) Now build and start your application and you should have your grid displayed and filled with data on your start page - Default.aspx.
+
+## More Samples
+
+More live examples of the Shield UI framework can be found on [their website](http://demos.shieldui.com/aspnet/).
 
