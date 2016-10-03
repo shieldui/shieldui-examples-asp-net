@@ -49,6 +49,7 @@ protected void Page_Load(object sender, EventArgs e)
 		mgr.Scripts.Add(scriptReference);
 	}
 }
+```
 		
 9) In the Content placeholder of your Default.aspx page add the code for your DataSource and your Grid:
 
