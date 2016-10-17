@@ -28,7 +28,7 @@ This brings client-side performance to the comfort of Visual Studio.
 <asp:ScriptReference Path="//www.shieldui.com/shared/components/latest/js/shieldui-all.min.js" />
 ```
 
-*NOTE:* It should be added after the jQuery ScriptReference 
+**NOTE:** It should be added after the jQuery ScriptReference 
 
 7) In your Default.aspx start page, after the Page directive, register your Shield.Web.UI dll:
 
