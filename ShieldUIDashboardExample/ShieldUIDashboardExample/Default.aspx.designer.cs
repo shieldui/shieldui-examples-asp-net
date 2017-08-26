@@ -47,5 +47,14 @@ namespace ShieldUIDashboardExample {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::Shield.Web.UI.ShieldChart ShieldChart3;
+        
+        /// <summary>
+        /// ShieldChart4 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::Shield.Web.UI.ShieldChart ShieldChart4;
     }
 }

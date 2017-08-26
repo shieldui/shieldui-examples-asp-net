@@ -134,4 +134,38 @@
             </div>
         </div>
     </div>
+
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title"><i class="fa fa-bar-chart-o"></i>Chart with DateTime Axis</h3>
+                </div>
+                <div class="panel-body">
+                    <shield:ShieldChart ID="ShieldChart4" runat="server" Width="100%" Height="400px" OnTakeDataSource="InitChart4Data">
+                        <PrimaryHeader Text="Shield UI Chart" />
+                        <Axes>
+                            <shield:ChartAxisX AxisType="Datetime" TicksRepeat="1">
+                                <AxisTickText Format="{text:d MMM yyyy}" />
+                            </shield:ChartAxisX>
+                            <shield:ChartAxisY SwapLocation="false">
+                               <Title Text="Item1 Axis Text" />
+                            </shield:ChartAxisY>
+                            <shield:ChartAxisY SwapLocation="true">
+                               <Title Text="Item2 Axis Text" />
+                            </shield:ChartAxisY>
+                            <shield:ChartAxisY SwapLocation="true">
+                               <Title Text="Item3 Axis Text" />
+                            </shield:ChartAxisY>
+                        </Axes>
+                        <DataSeries>
+                            <shield:ChartLineSeries DataFieldX="Date" DataFieldY="Item1" CollectionAlias="Item1" EnableValueXSorting="false" AxisY="0" />
+                            <shield:ChartLineSeries DataFieldX="Date" DataFieldY="Item2" CollectionAlias="Item2" EnableValueXSorting="false" AxisY="1" />
+                            <shield:ChartLineSeries DataFieldX="Date" DataFieldY="Item3" CollectionAlias="Item3" EnableValueXSorting="false" AxisY="2" />
+                        </DataSeries>
+                    </shield:ShieldChart>
+                </div>
+            </div>
+        </div>
+    </div>
 </asp:Content>

@@ -58,6 +58,18 @@ namespace ShieldUIDashboardExample
 			};
 		}
 
+        protected void InitChart4Data(object sender, ChartTakeDataSourceEventArgs e)
+        {
+            this.ShieldChart4.DataSource = new object[]
+            {
+                new { Date = DateTime.Parse("8/1/2017"), Item1 = 500, Item2 = 50, Item3 = 5 },
+                new { Date = DateTime.Parse("8/2/2017"), Item1 = 600, Item2 = 55, Item3 = 7 },
+                new { Date = DateTime.Parse("8/3/2017"), Item1 = 400, Item2 = 60, Item3 = 9 },
+                new { Date = DateTime.Parse("8/4/2017"), Item1 = 800, Item2 = 65, Item3 = 9 },
+                new { Date = DateTime.Parse("8/5/2017"), Item1 = 1600, Item2 = 70, Item3 = 13 },
+            };
+        }
+
 		private sealed class Data
 		{
 			public int Logins { get; set; }
